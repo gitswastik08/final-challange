@@ -1,0 +1,105 @@
+@font-face {
+  font-family: chllangefont;
+  src: url(AtHaussStd-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: chllangefont;
+}
+#main {
+  min-height: 400%;
+  width: 100%;
+  background-color: #e4ddd4;
+}
+#navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* height: 9vh; */
+  padding: 3.5vh 2vw;
+}
+#centernav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 45vw;
+}
+#centernav a {
+  text-decoration: none;
+  color: #242320;
+  font-family: challangefont;
+  font-weight: 700;
+  line-height: 2.5vh;
+}
+
+#rightnav i {
+  /* font-size: 1vw; */
+  color: #e4ddd4;
+  width: 1vw;
+  height: 0.5;
+}
+
+#rightnav #blackdiv {
+  width: 4.2vw;
+  height: 4.2vw;
+  background-color: #242320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo svg {
+  width: 13vw;
+  color: #242320;
+}
+#contentdiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 7vw;
+    left: 12vw;
+    background-attachment: fixed;
+}
+#centerdivline{
+    display:flex;
+    align-items: center;
+}
+#centerdivline svg{
+    width: 4vw;
+    color: #242320;
+}
+.divline h1{
+  font-size: 5vw;
+  color: #242320;
+  font-weight: 200;
+}
+#firstdivline{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25vw;
+}
+#videodiv{
+  width: ;
+  position: relative;
+  top: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#videodiv video{
+  width: 80%;
+}
+#divline3{
+  margin-right: 20vw;
+}
+
+
